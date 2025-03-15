@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { FiSend, FiPlus } from "react-icons/fi";
 import moment from "moment";
-import { getCookie, deleteCookie } from "cookies-next";
+import { getCookie} from "cookies-next";
 
 interface Payload {
   username?: string;

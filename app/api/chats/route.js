@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import connecting from "../../../lib/db"
 import Chat from "../../../lib/model/chat";
 
-export async function GET(request) {
+export async function GET() {
   await connecting();
   try {
       const allChats = await Chat.find().lean(); // Use lean() for better performance

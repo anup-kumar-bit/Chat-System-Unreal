@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function Users(){
     return(
         <div className="w-36 h-full border-l-2 border-gray-500">
